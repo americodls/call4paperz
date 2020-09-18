@@ -61,7 +61,6 @@ GEM
       ffi (~> 1.0, >= 1.0.11)
     chunky_png (1.2.7)
     coderay (1.0.9)
-    columnize (0.8.9)
     compass (0.12.2)
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
@@ -72,12 +71,6 @@ GEM
     daemons (1.1.9)
     dalli (2.7.2)
     database_cleaner (0.9.1)
-    debugger (1.6.6)
-      columnize (>= 0.3.1)
-      debugger-linecache (~> 1.2.0)
-      debugger-ruby_core_source (~> 1.3.2)
-    debugger-linecache (1.2.0)
-    debugger-ruby_core_source (1.3.2)
     devise (2.2.3)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.1)
@@ -144,8 +137,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.1)
     method_source (0.8.1)
     mime-types (1.25.1)
-    mini_magick (3.5.0)
-      subexec (~> 0.2.1)
+    mini_magick (4.9.5)
     multi_json (1.10.1)
     multipart-post (2.0.0)
     naught (1.0.0)
@@ -258,7 +250,6 @@ GEM
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
     sqlite3 (1.3.7)
-    subexec (0.2.2)
     thin (1.5.1)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
@@ -314,7 +305,6 @@ DEPENDENCIES
   culerity
   dalli
   database_cleaner
-  debugger
   devise
   devise-encryptable
   dotenv-rails
